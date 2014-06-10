@@ -29,7 +29,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/annawlete-dev.db')
+                filename: path.join(__dirname, '/content/data/ghost-dev.db')
             },
             debug: false
         },
@@ -63,7 +63,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/annawelte.db')
+                filename: path.join(__dirname, '/content/data/ghost.db')
             },
             debug: false
         },
